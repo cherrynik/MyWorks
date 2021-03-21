@@ -1,0 +1,40 @@
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1em solid black;
+  width: 40em;
+  height: 40em;
+}
+
+.field .field__excel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.56em;
+  height: 1.56em;
+  border: 1px solid black;
+  font-size: 3.125em;
+}
+
+.field .field__excel.field__excel_current {
+  background-image: url('knight.svg');
+  background-size: cover;
+}
+
+.field .field__excel.field__excel_possiblePos  {
+  outline: 10px solid green;
+  outline-offset: -10px;
+}
+
+.field .field__excel.field__excel_color_first  { background-color: #FFF8DC; }
+
+.field .field__excel.field__excel_color_second { background-color: #A52A2A; }
+
+
