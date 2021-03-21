@@ -1,0 +1,45 @@
+C:\Users\Home\RiderProjects\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Home\RiderProjects\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Home\RiderProjects\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\App.g.cs
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\MainWindow.baml
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.g.resources
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Home\RiderProjects\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Коля\Desktop\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Коля\Desktop\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\Коля\Desktop\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\App.g.cs
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\MainWindow.baml
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\Calculator.g.resources
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\Коля\Desktop\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\MainWindow.g.cs
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\App.g.cs
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\MainWindow.baml
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\Calculator.g.resources
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\ighos\Desktop\New folder\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
