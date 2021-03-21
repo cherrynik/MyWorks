@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8">
+    <title>KLID</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="57x57" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-icon-180x180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="apple-mobile-web-app-title" content="webpack"><link rel="icon" type="image/png" sizes="32x32" href="icons-22d3bd382f1c69f97eeb4e29c712d290/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="icons-22d3bd382f1c69f97eeb4e29c712d290/favicon-16x16.png"><link rel="shortcut icon" href="icons-22d3bd382f1c69f97eeb4e29c712d290/favicon.ico"><meta name="mobile-web-app-capable" content="yes"><meta name="theme-color" content="#fff"><meta name="application-name" content="webpack"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-320x460.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-640x920.png"><link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-640x1096.png"><link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-750x1294.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 3)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-1182x2208.png"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 3)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-1242x2148.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-748x1024.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-768x1004.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-1496x2048.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="icons-22d3bd382f1c69f97eeb4e29c712d290/apple-touch-startup-image-1536x2008.png"><link rel="shortcut icon" href="logo.png"></head>
+  <body style="display: none">
+<header class="header wow fadeInDown">
+  <div class="header__contactBlock wow fadeInRight" data-wow-delay="0.8s">
+    <h2 class="contactBlock__text">+7(999)123-45-67</h2>
+    <h2 class="contactBlock__text">example@domain.com</h2>
+  </div>
+  <div class="header__inner">
+    <div class="logo wow fadeInDown"></div>
+    <nav class="header__nav"><a class="nav__item wow fadeInLeft" href="#ourRates" data-wow-delay="0.2s">IT-outsoursing</a><a class="nav__item wow fadeInLeft" href="#work" data-wow-delay="0.4s">Servicii</a><a class="nav__item wow fadeInLeft" href="#personGot" data-wow-delay="0.6s">Beneficiile</a><a class="nav__item wow fadeInLeft" href="#aboutUs" data-wow-delay="0.8s">Contacte</a></nav>
+  </div>
+  <div class="header__chooseLang"><i class="chooseLang__button fas fa-language"></i>
+    <div class="chooseLang__window"><a class="chooseLang__lang" href="index_enEN.html"><img class="chooseLang__img" src="img/en.png"></a><a class="chooseLang__lang" href="index.html"><img class="chooseLang__img" src="img/ru.png"></a></div>
+  </div>
+</header><a href="#intro"><i class="fas fa-angle-double-up anchor" id="anchor"></i></a>
+<section class="intro" id="intro">
+  <div class="heading">
+    <h1 class="heading__main">Specialiștilor în domeniul IT vă ajută</h1>
+    <h2 class="heading__second">Specialiștii noștri vă vor ajuta ca lucrul să decurgă făra griji si probleme cu calculatorul sau tehnica din oficiu</h2>
+  </div>
+  <div class="intro__container">
+    <div class="container__leftSide">
+      <ul class="goods">
+        <li class="goods__item wow fadeInLeft" data-wow-delay="1s">3 ani acordăm servicii de IT-susținere</li>
+        <li class="goods__item wow fadeInLeft" data-wow-delay="1.1s">Acordam absolut GRATUIT IT-audiе</li>
+        <li class="goods__item wow fadeInLeft" data-wow-delay="1.2s">Suntem receptivi de la 5 min pâna la 1h</li>
+        <li class="goods__item wow fadeInLeft" data-wow-delay="1.3s">La 92% întreprinderi a crescut productivitatea de când am început a colabura</li>
+      </ul>
+    </div>
+    <div class="container__rightSide">
+      <form class="form" action="form_roRO.php" method="POST" onsubmit="alert('Thanks!')">
+        <h1 class="form__heading">Contact us</h1>
+        <input class="form__name" type="text" name="name" placeholder="Your name" minlength="2" maxlength="32" required>
+        <input class="form__mail" type="text" name="mail telephone" placeholder="Your email or phone number" minlength="6" maxlength="32" required>
+        <button class="form__submit" type="submit" name="submit">Send the request</button>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="ourRates" id="ourRates">
+  <div class="ourRates__container">
+    <div class="ourRates__item"><i class="fas fa-graduation-cap item__logo wow bounceIn" data-wow-delay="0.3s" data-wow-offset="150"></i>
+      <h1 class="item__pre">3 ani</h1>
+      <p class="item__description">acordam servicii de IT-outsorsing</p>
+    </div>
+    <div class="ourRates__item"><i class="far fa-star item__logo wow bounceIn" data-wow-delay="0.4s" data-wow-offset="150"></i>
+      <h1 class="item__pre">4.7 din 5</h1>
+      <p class="item__description">nota medie a calității de lucru</p>
+    </div>
+    <div class="ourRates__item"><i class="far fa-life-ring item__logo wow bounceIn" data-wow-delay="0.5s" data-wow-offset="150"></i>
+      <h1 class="item__pre">2 hours</h1>
+      <p class="item__description">for the engineer to get to the office</p>
+    </div>
+    <div class="ourRates__item"><i class="fas fa-phone item__logo wow bounceIn" data-wow-delay="0.6s" data-wow-offset="150"></i>
+      <h1 class="item__pre">24 sec.</h1>
+      <p class="item__description">timpul de așteptare mediu</p>
+    </div>
+    <div class="ourRates__item"><i class="fas fa-file-signature item__logo wow bounceIn" data-wow-delay="0.7s" data-wow-offset="150"></i>
+      <h1 class="item__pre">1793</h1>
+      <p class="item__description">solicitări primite și cu succes rezolvate pt anul trecut</p>
+    </div>
+  </div>
+</section>
+<section class="superBusiness">
+  <h1 class="superBusiness__heading">Business <span class="heading__colored">fara obstacole </span>in procesul de activitate</h1>
+  <div class="superBusiness__container">
+    <div class="container__leftSide">
+      <div class="item"><i class="fas fa-desktop item__logo"></i>
+        <h1 class="item__pre">Nu se conectează —</h1>
+        <p class="item__description">nu ați scis raportul</p>
+      </div>
+      <div class="item"><i class="fas fa-print item__logo"></i>
+        <h1 class="item__pre">Nu lucreaza imprimanta —</h1>
+        <p class="item__description">ați ramas fămas fără contract</p>
+      </div>
+    </div><img class="container__center" src="img/bimg.png">
+    <div class="container__rightSide">
+      <div class="item"><i class="fas fa-server item__logo"></i>
+        <h1 class="item__pre">Nu lucreaza serverul —</h1>
+        <p class="item__description">nu puteți primi acces la informatia de care aveți nevoie</p>
+      </div>
+      <div class="item"><i class="fas fa-skull-crossbones item__logo"></i>
+        <h1 class="item__pre">A apărut un virus —</h1>
+        <p class="item__description">procesul de lucru s-a oprit</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ourAdvantages" id="ourAdvantages">
+  <h1 class="ourAdvantages__heading">De ce noi:</h1>
+  <div class="ourAdvantages__container">
+    <div class="item">
+      <div class="item__heading"><img class="logo wow flipInY" src="img/wallet.png" data-wow-delay="0.2s" data-wow-offset="100">
+        <div class="item__textBox">
+          <h1 class="textBox__main">E profitabil</h1>
+          <h2 class="textBox__second">economisiți cheltuielile</h2>
+        </div>
+      </div>
+      <p class="item__description">Serviciile de abonament sunt mult mai profitabile decât păstrarea unui specialist în personal, care trebuie să plătească salarii, taxe de salarizare, să mențină un loc de muncă etc</p>
+    </div>
+    <div class="item">
+      <div class="item__heading"><img class="logo wow flipInY" src="img/tools.png" data-wow-delay="0.4s" data-wow-offset="100">
+        <div class="item__textBox">
+          <h1 class="textBox__main">Specialiști cu experiență</h1>
+          <h2 class="textBox__second">mai bine de 3 ani</h2>
+        </div>
+      </div>
+      <p class="item__description">Nu lucrează calculatorul,imprimanta,serverul,mereu procesul de lucru se stopează- specialiștii noștri vor rezolva orice problema IT</p>
+    </div>
+    <div class="item">
+      <div class="item__heading"><img class="logo wow flipInY" src="img/documents.png" data-wow-delay="0.2s" data-wow-offset="100">
+        <div class="item__textBox">
+          <h1 class="textBox__main">Contractul despre calitatea serviciilor</h1>
+          <h2 class="textBox__second">confidențialitatea informației</h2>
+        </div>
+      </div>
+      <p class="item__description">Incheiem contract cu toate condițiile: serviciile acordate ,calitatea,tehnica lucrului si vă garantam confidențialitate informației</p>
+    </div>
+    <div class="item">
+      <div class="item__heading"><img class="logo wow flipInY" src="img/gears.png" data-wow-delay="0.4s" data-wow-offset="100">
+        <div class="item__textBox">
+          <h1 class="textBox__main">Ducem cont de nereguli</h1>
+        </div>
+      </div>
+      <p class="item__description">Managerul personal va fi mereu disponibil la telefon,va efectua neregulile la distanță și specialiștii-IT operativi în proximativ 2 ore vor ajunge la dvs pentru a rezolva problema</p>
+    </div>
+  </div>
+</section>
+<section class="comparison">
+  <div class="comparison__headingBlock">
+    <h1 class="headingBlock__heading">Noi prețuim calitatea</h1>
+    <div class="line"></div>
+    <h2 class="headingBlock__subheading">Pentru noi e important ca clienților sa le fie comod</h2>
+  </div>
+  <div class="comparison__container">
+    <div class="comparison__why">
+      <div class="why__bad">
+        <h1 class="why__heading why__heading_bad">Specialist-IT angajat</h1>
+        <ul class="why__list">
+          <li class="list__item list__item_bad">Greu
+            <p class="list__itemDescription">Salariu, concediu, impozite</p>
+          </li>
+          <li class="list__item list__item_bad">Eficiență scăzuta
+            <p class="list__itemDescription">E bolnav în momentul când aveti nevoie, lipsește sau s-a concediat</p>
+          </li>
+          <li class="list__item list__item_bad">Cunoștințe limitate
+            <p class="list__itemDescription">Poate simplu sa nu cunoască cum sa rezolve careva sarcini</p>
+          </li>
+        </ul>
+      </div>
+      <div class="why__good">
+        <h1 class="why__heading why__heading_good">Parteneriat cu noi</h1>
+        <ul class="why__list">
+          <li class="list__item">Prețuri accesibile
+            <p class="list__itemDescription">Cost fix, abonamente accesibile</p>
+          </li>
+          <li class="list__item">Eficiență înaltă
+            <p class="list__itemDescription">Operativ rezolvâm toate problemele indiferent de ora</p>
+          </li>
+          <li class="list__item">Competență
+            <p class="list__itemDescription">O echipă mare de specialiști-IT care vor rezolva orice sarcină</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="work" id="work">
+  <div class="work__headingBlock">
+    <h1 class="headingBlock__heading">Serviciile noastre</h1>
+    <div class="line"></div>
+    <h2 class="headingBlock__subheading">Prețurile pentru un dispozitiv</h2>
+  </div>
+  <div class="work__container">
+    <div class="allServices">
+      <div class="work__service">
+        <h1 class="service__name">OC Windows</h1>
+        <h2 class="service__price">9€/Lună</h2>
+      </div>
+      <div class="work__service">
+        <h1 class="service__name">OC Linux</h1>
+        <h2 class="service__price">9€/Lună</h2>
+      </div>
+      <div class="work__service">
+        <h1 class="service__name">Crearea web site-uri</h1>
+        <h2 class="service__price service__price_unset">Preț individual</h2>
+      </div>
+      <h1 class="work__postScriptum">La procurarea abonamentului anual primiți reducere 10%</h1>
+    </div>
+  </div>
+</section>
+<section class="contactUs" id="contactUs">
+  <div class="contactUs__headingBlock">
+    <h1 class="headingBlock__heading">Noi suntem mereu pe fir</h1>
+    <div class="line"></div>
+    <h2 class="headingBlock__subheading">Specialiștii noștri sunt mereu la dispoziția dvs</h2>
+  </div>
+  <div class="contactUs__container">
+    <div class="links"><a class="links__item" href="#"><i class="links__item fab fa-skype skype"></i></a><a class="links__item" href="#"><i class="links__item fab fa-telegram telegram"></i></a><a class="links__item" href="#"><i class="links__item fab fa-viber viber"></i></a><a class="links__item" href="#"><i class="links__item fab fa-whatsapp whatsapp"></i></a><a class="links__item" href="#"><i class="links__item far fa-envelope mail"></i></a></div>
+  </div>
+</section>
+<section class="personGot" id="personGot">
+  <div class="personGot__headingBox">
+    <h1 class="headingBox__heading">Serviciile care le oferim:</h1>
+    <div class="headingBox__line"></div>
+  </div>
+  <div class="personGot__container">
+    <div class="item wow fadeInLeft" data-wow-delay="0.2s" data-wow-offset="100"><img class="item__logo" src="img/allinclusive.svg">
+      <div class="item__to"></div>
+      <div class="item__textBox">
+        <h1 class="item__heading">Totul inclus</h1>
+        <ul class="item__list">
+          <li class="list__got">Numarul chemărilor este nelimitat</li>
+          <li class="list__got">Prețul serviciilor îl cunoașteți din timp</li>
+          <li class="list__got">Parametrii de deservire sunt menționați in contract</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item item_reversed wow fadeInRight" data-wow-delay="0.2s" data-wow-offset="100"><img class="item__logo" src="img/medal.svg">
+      <div class="item__to item__to_reversed"></div>
+      <div class="item__textBox item__textBox_reversed">
+        <h1 class="item__heading">Experiență 3 ani</h1>
+        <ul class="item__list">
+          <li class="list__got">Acordam absolut GRATUIT IT-audiе</li>
+          <li class="list__got">Suntem receptivi de la 5min pâna la 1h</li>
+          <li class="list__got">La 92% întreprinderi a crescut productivitatea de când am început colaburarea</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item wow fadeInLeft" data-wow-delay="0.2s" data-wow-offset="100"><img class="item__logo" src="img/list.svg">
+      <div class="item__to"></div>
+      <div class="item__textBox">
+        <h1 class="item__heading">Acord privind nivelulu serviciilor</h1>
+        <ul class="item__list">
+          <li class="list__got">SLA-precizează inițial ce servicii se doresc</li>
+          <li class="list__got">Timpul de preluare a comezii nu depașește 1 oră</li>
+          <li class="list__got">Timplu deplasării la chemare nu depașește 2 ore</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item item_reversed wow fadeInRight" data-wow-delay="0.2s" data-wow-offset="100"><img class="item__logo" src="img/like.svg">
+      <div class="item__to item__to_reversed"></div>
+      <div class="item__textBox item__textBox_reversed">
+        <h1 class="item__heading">Sistemul de control al calității</h1>
+        <ul class="item__list">
+          <li class="list__got">Va fi legatură directă cu departamentul de control al calitații</li>
+          <li class="list__got">Se monitorizează clienții satisfăcuți de servicile noastre</li>
+          <li class="list__got">Competențe în peste 30 de domenii diferite</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item wow fadeInLeft" data-wow-delay="0.2s" data-wow-offset="100"><img class="item__logo" src="img/infoCode.svg">
+      <div class="item__to"></div>
+      <div class="item__textBox">
+        <h1 class="item__heading">Securitatea informațiilor</h1>
+        <ul class="item__list">
+          <li class="list__got">Vă garantăm confidențialitatea informațiilor</li>
+          <li class="list__got">Toate parolele se vor păstra criptate</li>
+          <li class="list__got">Accesul angajaților la informații este strict reglementat</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item item_reversed wow fadeInRight" data-wow-delay="0.2s" data-wow-offset="100"><img class="item__logo" src="img/info.svg">
+      <div class="item__to item__to_reversed"></div>
+      <div class="item__textBox item__textBox_reversed">
+        <h1 class="item__heading">Organizația de pornire</h1>
+        <ul class="item__list">
+          <li class="list__got">Organizarea business - ului de la zero</li>
+          <li class="list__got">Vă vom ajuta în alegerea tehnicii necesare</li>
+          <li class="list__got">Consultarea și instalarea tehnicii necesare</li>
+        </ul>
+      </div>
+    </div>
+    <div class="item wow fadeInLeft" data-wow-delay="0.2s" data-wow-offset="100"><img class="item__logo" src="img/specialist.svg">
+      <div class="item__to"></div>
+      <div class="item__textBox">
+        <h1 class="item__heading">Specialiști certificați</h1>
+        <ul class="item__list">
+          <li class="list__got">Specialiști cu experiență în cele mai mari companii-IT</li>
+          <li class="list__got">Calificare și 4 ani de experință</li>
+          <li class="list__got">Angajați cu experiență în IT mai bine de 2 ani</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="ITAudit">
+  <div class="ITAudit__container">
+    <h1 class="ITAudit__heading">ИТ-аудит бесплатно</h1>
+    <p class="ITAudit__description">Бесплатно проведем ИТ-аудит, чтобы выявить потенциальные проблемы и узкие места.</p>
+    <form class="form" action="form_roRO.php" method="POST" onsubmit="alert('Thanks!')">
+      <h1 class="form__heading">Contact us</h1>
+      <input class="form__name" type="text" name="name" placeholder="Your name" minlength="2" maxlength="32" required>
+      <input class="form__mail" type="text" name="mail telephone" placeholder="Your email or phone number" minlength="6" maxlength="32" required>
+      <button class="form__submit" type="submit" name="submit">Send the request</button>
+    </form>
+  </div>
+</section>
+<section class="partners">
+  <h1 class="partners__heading">Clienții noștri</h1>
+  <div class="partners__container"><img class="partner" src="img/brand1.png"><img class="partner partner_small" src="img/brand2.svg"><img class="partner partner_small" src="img/brand3.png"><img class="partner partner_small" src="img/brand4.png"><img class="partner partner_small" src="img/brand5.png"></div>
+</section>
+<section class="aboutUs" id="aboutUs">
+  <h1 class="aboutUs__heading">Au mai rămas întrebări?</h1>
+  <div class="aboutUs__container">
+    <div class="container__leftSide">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1684.0680477453584!2d37.61435072886845!3d55.757112763571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0LLRgdGC0LDQstC40YLRjCDQutCw0YDRgtGDINC90LAg0YHQsNC50YI!5e0!3m2!1sru!2sru!4v1549715095137"></iframe>
+    </div>
+    <div class="container__rightSide">
+      <div class="textBox">
+        <h1 class="textBox__heading">Nr de contact:</h1>
+        <h2 class="textBox__info">+7(999)123-45-67</h2>
+      </div>
+      <div class="textBox">
+        <h1 class="textBox__heading">Poșta noastră:</h1>
+        <h2 class="textBox__info">example@domain.com</h2>
+      </div>
+      <div class="textBox">
+        <h1 class="textBox__heading">Ne găsiți pe site-uri de socializare:</h1>
+        <h2 class="textBox__info"><a class="fab fa-skype links" href="#"></a><a class="fab fa-telegram links" href="#"></a><a class="fab fa-viber links" href="#"></a><a class="fab fa-whatsapp links" href="#"></a><a class="far fa-envelope links" href="#"></a></h2>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <h1 class="copyright">© KLID, 2019</h1>
+  <h2 class="rights">Toate drepturile de autor sunt securizate</h2>
+</footer>
+  <script type="text/javascript" src="index.js"></script></body>
+</html>
