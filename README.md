@@ -1,6 +1,6 @@
 # MyWorks
 
-## Resources
+## Resources I Study At
 ### Programming
 
 ### Math
